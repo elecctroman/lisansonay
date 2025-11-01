@@ -1,0 +1,11 @@
+{
+  "name": "codexpro/wallet-levels",
+  "description": "Codex Pro wallet, levels and Netgsm plugin",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "autoload": {
+    "psr-4": {
+      "CodexPro\\": "src/"
+    }
+  }
+}
