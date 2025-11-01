@@ -1,0 +1,9 @@
+{
+"name": "codex-pro/admin-suite",
+"type": "wordpress-plugin",
+"autoload": {
+"psr-4": {
+"CodexPro\\": "src/"
+}
+}
+}
