@@ -1,0 +1,14 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Codex Pro Dashboard"
+msgstr ""
+
+msgid "Wallet Overview"
+msgstr ""
+
+msgid "Wallet Management"
+msgstr ""
+
+msgid "Wallet Balance"
+msgstr ""

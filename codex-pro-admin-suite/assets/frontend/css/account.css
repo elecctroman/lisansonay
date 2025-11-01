@@ -1,0 +1,43 @@
+.codex-account {
+display: flex;
+flex-direction: column;
+gap: 24px;
+}
+
+.codex-account__hero {
+display: grid;
+gap: 24px;
+grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.codex-card {
+background: var(--wp--preset--color--base, #fff);
+border-radius: 12px;
+padding: 24px;
+box-shadow: 0 15px 45px rgba(0, 0, 0, 0.08);
+}
+
+.codex-card__value {
+font-size: 32px;
+font-weight: 600;
+margin: 0;
+}
+
+.codex-account__tables table {
+width: 100%;
+border-collapse: collapse;
+}
+
+.codex-account__tables th,
+.codex-account__tables td {
+border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+padding: 12px 16px;
+text-align: left;
+}
+
+@media (prefers-color-scheme: dark) {
+.codex-card {
+background: rgba(20, 22, 26, 0.8);
+color: #f7f7f7;
+}
+}
