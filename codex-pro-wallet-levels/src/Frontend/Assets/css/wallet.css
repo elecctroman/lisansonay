@@ -1,0 +1,50 @@
+.codex-wallet {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.codex-wallet__summary,
+.codex-wallet__levels,
+.codex-wallet__analytics,
+.codex-wallet__transactions,
+.codex-wallet__points {
+    background: var(--wp--preset--color--base, #fff);
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.codex-wallet__balance {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.codex-wallet table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.codex-wallet table th,
+.codex-wallet table td {
+    padding: 0.5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    text-align: left;
+}
+
+@media (prefers-color-scheme: dark) {
+    .codex-wallet__summary,
+    .codex-wallet__levels,
+    .codex-wallet__analytics,
+    .codex-wallet__transactions,
+    .codex-wallet__points {
+        background: #1f2937;
+        color: #f9fafb;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    }
+
+    .codex-wallet table th,
+    .codex-wallet table td {
+        border-bottom-color: rgba(255, 255, 255, 0.1);
+    }
+}
